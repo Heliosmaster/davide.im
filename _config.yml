@@ -50,6 +50,7 @@ plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
 exclude:     []
+encoding:    utf-8
 timezone:    nil
 
 # Show future posts
