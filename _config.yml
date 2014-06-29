@@ -8,8 +8,10 @@ inc:
   # Company information
   company:      Davide Taviani
   url:          http://davide.im
+
   facebook:     davidetaviani
   twitter:      helios
+  github:       Heliosmaster
   #gplus:        '101183822199340201470'
   about_link:   about
 
