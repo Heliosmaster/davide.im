@@ -1,44 +1,47 @@
 ---
 layout: base
 ---
-{% if page.cover_image %}
+{% if page.cover.image %}
 <div class="article-cover">
-    <div>
-        <img src="/images/{{ page.cover_image }}" class="image">
-    </div>
+  <div>
+    <img src="/images/{{ page.cover.image }}" class="image">
+  </div>
 </div>
+<div class="cover-attribution"><a href="{{page.cover.link}}">{{page.cover.title}}</a> by {{ page.cover.author }},
+  license {{ page.cover.license }}</div>
 {% endif %}
 <article>
 
-    <div class="container">
-        <header>
-            <div class="meta">
-                <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%d %B %Y" }}</time>
-                <span style="float:right;">{{ page.content | reading_time }}</span>
-            </div>
-            <h1 class="title">{{ page.title }}</h1>
-            {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
-        </header>
+  <div class="container">
+    <header>
+      <div class="meta">
+        <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%d %B %Y" }}</time>
+        <span style="float:right;">{{ page.content | reading_time }}</span>
+      </div>
+      <h1 class="title">{{ page.title }}</h1>
+      {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
+    </header>
 
-        <section>
-            {{ content }}
-            {% include _social.html %}
-        </section>
+    <section>
+      {{ content }}
+      {% include _social.html %}
+    </section>
 
-        <footer>
-            <address>
-               {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
-                <p>Written by <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
-                <span class="muted">{{ page.author.bio }}</span>
-                </p>
-            </address>
+    {% if page.author %}
+    <footer>
+      <address>
+        {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
+        <p>Written by <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
+          <span class="muted">{{ page.author.bio }}</span>
+        </p>
+      </address>
 
-        </footer>
-
-        {% if site.inc.disqus.shortname %}
-        <section>
-            {% include _disqus.html %}
-        </section>
-        {% endif %}
-    </div>
+    </footer>
+    {% endif %}
+    {% if site.inc.disqus.shortname %}
+    <section>
+      {% include _disqus.html %}
+    </section>
+    {% endif %}
+  </div>
 </article>
