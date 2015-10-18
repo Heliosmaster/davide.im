@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/davide
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://davide.im
+  * I am davide (https://keybase.io/davide) on keybase.
+  * I have a public key with fingerprint F45A 8329 0B03 4310 6C5F  807F 7B03 AA14 4161 2ABB
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.22"
+        },
+        "key": {
+            "eldest_kid": "0101cc5d73f906486339ec226e3da59705bac0b9298b1e0d3fd0e57128b8ccfe95e00a",
+            "fingerprint": "f45a83290b0343106c5f807f7b03aa1441612abb",
+            "host": "keybase.io",
+            "key_id": "7b03aa1441612abb",
+            "kid": "0101cc5d73f906486339ec226e3da59705bac0b9298b1e0d3fd0e57128b8ccfe95e00a",
+            "uid": "6a89436982b8af64c7b1020f73d9f700",
+            "username": "davide"
+        },
+        "service": {
+            "hostname": "davide.im",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1445167135,
+    "expire_in": 157680000,
+    "prev": "20338dff49502a201ca3a6a637ce207dcfc6a4729897f344f70d4e637600c4b7",
+    "seqno": 18,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtMHFUYXVh5lMij1RZb6rIdwIChy7wfSGsgSozpDyRpKWVhvTNzZxkKO3R3
+WSBL00Ifa1ELSJGglIJ0g4G00rTWsCIVugSFNrq0tQ9RG6k0SFvFJoLREmcIJjbx
+p/fXvfc73/nOOfc2Rup14UFufe/TmeD5T4MmZnndjoT9RjfCK2I1ku5GhFIZ2pza
+zgbKIJKO7IbVPHBAk6wYbYoITSUO4womFXFBu0NWbCoKNbEmHEf2pmp4rRuWitDh
+tOyWRa2KoZggUCJDSBxKkyxNEBwUcJyGhAgojkEpHggoz+Ecy2MQFQlJRCHFYDjL
+s4IgQY6CKArUgZJss0J7uV3WJCISSQGWwDmURwmSwFBaoCQWZSRGPQOAkSRGYzjg
+ebWxWHE4HzODLCu1LMv7D/z/rLtimY4GLEcSNMfiPAskmhQYHkNxVGIIkZMYFNWA
+DmhfCV4ELlmEWqTqnUsWoBar5uOxukkuU9vK7YpTEZRS9brY6SxP17qc1eUarBLy
+lhUCCy/bRDXBf79cM6ZCBaesUaoJUBjNYASVisCqctkOLbIKwSiGZlF1aXOgS+XE
+UYJgRUkiOQrFAa6GBAhAA5pgBIijjChIAg1IRo2FYySCJFVzIgnVMo2iAskziOZp
+j01RuVlVKLCqnA7ZagPOCrvq+Ejwxid0QeG60JBg7XPqIlbF/PNjH6yOXkrKL/xz
++OIt47o17U/tq2nf0+hPwTI6X1mrVLrPFw1H+t8zlRXMNx9XuibCun6ZbzJs8uUO
+TJ9rGZ9ntz47WOfzjlYOW8wcbjz6Q9zVvtcLbo0kd3++d+toYmGooeFD80Lc7R+9
+4z/7NqxuOhdvfTTlbu0ex9dkuw997Hlr/6mzgQJEPJGXc3IwPmpQv/hGfVj9gmlV
+g3em0bPZUJZ2N6H28u95Py1MZ395r2Oz9Jr/j5n69vkm00u+3prrJ79+7pO5lk4Q
+nNLSe6l5Yq5y9EbGNy07Aunyje+J7Oi4vP4+c3+KO8I2OTa5pX2GumjYzsYvFlZG
+xJ4Y23CnI+TdpKLiGkPoB43m5IfbJsCltvBjabsOP5PjNcBucJP5reqmfV/gvjd3
+7fmlOwMEiD2l9BsjOob9R5LyT4d54j6K7HR8S44O9NwruHwl63hda3zpr+/03F3U
+tT169cCVudbM6RFfrMerz6zPitkmf1ePZYV8dibXd8zewOagBw+ctaz/ijMELjSs
+d7jG3IEtzuQq45R+5MUXuqzX/LtC0qKiK5iS/IShg8HGxPf1TFPX24m17ZtC6p58
+2LYufCi5tmSIqp7YXrB0xroz3MONxWRaZu9Tt10ePyudDpjnZw9FXHVOv9latLOh
+7Yuev2oO+zLML1/r8fb2Gc3cZMLGoOtRgQsPooUpm/Vv
+=e7I0
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/davide
+
+==================================================================
+
